@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT=scratch-12345
+PROJECT=e-own-service-dev
 DATASET=mydataset
 TABLE=mytable
 SCHEMA=name:string,age:integer,lastseen:timestamp

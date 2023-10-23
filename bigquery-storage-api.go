@@ -16,8 +16,8 @@ import (
 
 const (
 	project = "scratch-12345"
-	dataset = "mydataset"
-	table   = "mytable"
+	dataset = "fuyang_test"
+	table   = "fuyang_table"
 	trace   = "bigquery-storage-api-example" // identifies this client for bigquery debugging
 )
 
@@ -33,13 +33,13 @@ func main() {
 		},
 		{
 			Name:     "Jane",
-			Age:      69,
+			Age:      0,
 			LastSeen: time.Now().UnixMicro(),
 		},
 		{
-			Name:     "Adam",
-			Age:      33,
-			LastSeen: time.Now().UnixMicro(),
+			Name: "Adam",
+			// Age:      0,
+			// LastSeen: time.Now().UnixMicro(),
 		},
 	}
 
